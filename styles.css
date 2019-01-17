@@ -58,24 +58,24 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('desktop/TreehouseProject1/resizedstudiopic.jpg') no-repeat top center ;
+  background: url('resizedstudiopic.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 header {
-  line-height: 1.5;
+  line-height: 1.2;
 }
 header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 4px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(360deg);
+  transform: scale(1.1) rotate(90deg);
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
@@ -162,10 +162,10 @@ a.social {
   transition: all .5s;
 }
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url(twitter.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(github.svg);
 }
 a.social:hover {
   opacity: 1;
