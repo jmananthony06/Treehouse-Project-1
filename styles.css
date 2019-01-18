@@ -87,7 +87,7 @@ header .profile-image:hover {
 }
 
 .tag {
-  background-color: #efefef;
+  background-color: pink;
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -95,7 +95,7 @@ header .profile-image:hover {
   margin: 10px auto;
 }
 .location {
-  background-color: #222;
+  background-color: pink;
   color: #FF2D00;
 }
 .card {
@@ -103,13 +103,13 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: white;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: black;
 }
 
 ul.skills {
@@ -208,6 +208,10 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+  }
+
+  address p a {
+    color: black;
   }
 
 }
